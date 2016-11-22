@@ -8,9 +8,9 @@ eC:\Users\Harold\Documents\Ciclo20161\Experimentos\PRUEBITASGO\PRUEBITASGO\App_S
 bC:\Users\Harold\Documents\Ciclo20161\Experimentos\PRUEBITASGO\PRUEBITASGO\App_Start\RouteConfig.cs (08@HR 0=1;5=0;10=0;20=0;30=0;60=0;90=0Z1=1;2=0;4=0;6=0;8=0;10=0;12=0r	
 ô
 cC:\Users\Harold\Documents\Ciclo20161\Experimentos\PRUEBITASGO\PRUEBITASGO\App_Start\Startup.Auth.cs (08@HR 0=1;5=0;10=0;20=0;30=0;60=0;90=0Z1=1;2=0;4=0;6=0;8=0;10=0;12=0j (+,-01235679:;=?@r"
-!"#$%&).BCDð
-jC:\Users\Harold\Documents\Ciclo20161\Experimentos\PRUEBITASGO\PRUEBITASGO\Controllers\AccountController.cs	 (08@HR 0=0;5=1;10=0;20=0;30=0;60=0;90=0Z1=2;2=0;4=1;6=0;8=0;10=0;12=0j 0r,	
-!"$%&()*+,-.1234589º
+!"#$%&).BCDõ
+jC:\Users\Harold\Documents\Ciclo20161\Experimentos\PRUEBITASGO\PRUEBITASGO\Controllers\AccountController.cs (08@HR 0=0;5=1;10=0;20=0;30=0;60=0;90=0Z1=1;2=1;4=1;6=0;8=0;10=0;12=0j$8r1	
+ !%&()*,-.013569:;<=@Aº
 mC:\Users\Harold\Documents\Ciclo20161\Experimentos\PRUEBITASGO\PRUEBITASGO\Controllers\CategoriesController.cs% 	(	08@HR 0=0;5=0;10=0;20=1;30=0;60=0;90=0Z1=3;2=3;4=3;6=0;8=0;10=0;12=0j'-./>MNO]lrj	
  !"#$%()*+0123456789;<?@ABCDEFGHIJKPQRSTUVWXYZ[^_`abcdefghijmnopqrstuwxyz{|}~€Ø
 gC:\Users\Harold\Documents\Ciclo20161\Experimentos\PRUEBITASGO\PRUEBITASGO\Controllers\HomeController.cs (08@HR 0=1;5=0;10=0;20=0;30=0;60=0;90=0Z1=3;2=0;4=0;6=0;8=0;10=0;12=0r	
@@ -28,8 +28,8 @@ XC:\Users\Harold\Documents\Ciclo20161\Experimentos\PRUEBITASGO\PRUEBITASGO\Globa
 xC:\Users\Harold\Documents\Ciclo20161\Experimentos\PRUEBITASGO\PRUEBITASGO\Migrations\201609260345058_Initial.Designer.cs (08@HR 0=1;5=0;10=0;20=0;30=0;60=0;90=0Z1=3;2=0;4=0;6=0;8=0;10=0;12=0r	
 ú
 oC:\Users\Harold\Documents\Ciclo20161\Experimentos\PRUEBITASGO\PRUEBITASGO\Migrations\201609260345058_Initial.cs (08@HR 0=1;5=0;10=0;20=0;30=0;60=0;90=0Z1=2;2=0;4=0;6=0;8=0;10=0;12=0r6	
- !"#$&'()*+,-.023456789:;ð
-eC:\Users\Harold\Documents\Ciclo20161\Experimentos\PRUEBITASGO\PRUEBITASGO\Migrations\Configuration.cs 8@HR 0=1;5=0;10=0;20=0;30=0;60=0;90=0Z1=1;2=1;4=0;6=0;8=0;10=0;12=0r:	 !"#$%&'()*+,-./015678:;=>?@BCDEGÆ
+ !"#$&'()*+,-.023456789:;ñ
+eC:\Users\Harold\Documents\Ciclo20161\Experimentos\PRUEBITASGO\PRUEBITASGO\Migrations\Configuration.cs 8@HR 0=1;5=0;10=0;20=0;30=0;60=0;90=0Z1=1;2=1;4=0;6=0;8=0;10=0;12=0r;	 !"#$%&'()*+,-./015678:;=>?@ACDEFHÆ
 \C:\Users\Harold\Documents\Ciclo20161\Experimentos\PRUEBITASGO\PRUEBITASGO\Models\Category.cs (08@HR 0=0;5=1;10=0;20=0;30=0;60=0;90=0Z1=8;2=0;4=0;6=0;8=0;10=0;12=0r	
 ×
 bC:\Users\Harold\Documents\Ciclo20161\Experimentos\PRUEBITASGO\PRUEBITASGO\Models\IdentityModels.cs (08@HR 0=1;5=0;10=0;20=0;30=0;60=0;90=0Z1=3;2=0;4=0;6=0;8=0;10=0;12=0j	r

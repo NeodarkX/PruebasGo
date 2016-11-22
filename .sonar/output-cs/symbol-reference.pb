@@ -70,11 +70,11 @@ jC:\Users\Harold\Documents\Ciclo20161\Experimentos\PRUEBITASGO\PRUEBITASGO\Contr
  !
 ) 2  )
 
-$$( -2
-$$3 7((% )((L P((z ~,,( ,
-&& ((^ `
+((( -2
+((3 7,,% ),,L P,,z ~33( ,
+** ,,^ `
 
-11 "¸
+99 "¸
 mC:\Users\Harold\Documents\Ciclo20161\Experimentos\PRUEBITASGO\PRUEBITASGO\Controllers\CategoriesController.cs
 
  %‚
@@ -249,7 +249,7 @@ eC:\Users\Harold\Documents\Ciclo20161\Experimentos\PRUEBITASGO\PRUEBITASGO\Migra
  
 
   $F
-A H!!& -"" ::$ +;; BB %CC 
+A H!!& -"" ::$ +;; CC %DD 
  !! 
 !!! "!!; <
 $$/ 0&&$ %(
@@ -257,8 +257,8 @@ eC:\Users\Harold\Documents\Ciclo20161\Experimentos\PRUEBITASGO\PRUEBITASGO\Migra
 **! #-- --- /
 55 :: 
 ::  ::; <
-== BB 
-BB BB0 1š
+== CC 
+CC CC0 1š
 \C:\Users\Harold\Documents\Ciclo20161\Experimentos\PRUEBITASGO\PRUEBITASGO\Models\Category.cs
 
  
