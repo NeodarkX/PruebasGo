@@ -1,0 +1,61 @@
+﻿@using PRUEBITASGO.Models
+@using reCAPTCHA.MVC
+@model PRUEBITASGO.ViewModels.UserViewModel
+@{
+
+    ViewBag.Title = "Iniciar sesión";
+    Layout = "~/Views/Shared/_LayoutLogin.cshtml";
+}
+
+@using (Html.BeginForm("Login", "Account", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+{
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+    <div class="login-form no-border no-border-radius">
+        <div class="welcome bg-blue p-t-20">
+            <div class="welcome-text text-size-huge text-light">Login</div>
+        </div>
+        <div class="panel panel-flat no-border">
+            <div class="panel-body no-padding-bottom">
+                <div class="form-group">
+                    @Html.TextBoxFor(m => m.user.UserName, new { @class = "form-control", autocomplete = "off" })
+                    @Html.ValidationMessageFor(m => m.user.UserName, "", new { @class = "text-danger" })
+                </div>
+
+                <div class="form-group">
+                    @Html.PasswordFor(m => m.user.Password, new { @class = "form-control", autocomplete = "off" })
+                    @Html.ValidationMessageFor(m => m.user.Password, "", new { @class = "text-danger" })
+                </div>
+
+                <div class="login-options" style="padding-bottom: 20px">
+                    <div class="row">
+                        <div class="col-sm-6 col-xs-6">
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox" class="styled" checked="checked">
+                                    Remember me
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6 col-xs-6 text-right">
+                            <button type="submit" class="btn bg-blue no-border-radius">Login</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        @if (ViewBag.Message != null)
+                        {
+                            <h4>@Html.Raw(ViewBag.Message)</h4>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
