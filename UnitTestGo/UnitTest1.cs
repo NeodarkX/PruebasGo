@@ -1,4 +1,4 @@
-﻿using NUnit.Framework;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using PRUEBITASGO.Controllers;
 using PRUEBITASGO.Models;
 using System;
@@ -11,20 +11,21 @@ using System.Web.Mvc;
 
 namespace UnitTestGo
 {
-    [TestFixture]
+    [TestClass]
     public class UnitTest1
     {
         //-------------------------Index-----------------------------------
-        [Test]
+        //-------------------------Index-----------------------------------
+        [TestMethod]
         public void ProductIndex()
         {
             var obj = new ProductsController();
             var actResult = obj.Index() as ViewResult;
-            Assert.That(actResult.ViewName, Is.EqualTo(""));
+            Assert.AreEqual(actResult.ViewName, "");
         }
 
         //------------------------Details----------------------------------
-        [Test]
+        [TestMethod]
         public void DetailsNull()
         {
             var obj = new ProductsController();
@@ -32,7 +33,7 @@ namespace UnitTestGo
             Assert.AreEqual(400, actResult.StatusCode);
         }
 
-        [Test]
+        [TestMethod]
         public void DetailsNotFound()
         {
             var obj = new ProductsController();
@@ -41,7 +42,7 @@ namespace UnitTestGo
         }
 
         //-----------------------Create-----------------------------------
-        [Test]
+        [TestMethod]
         public void CreateGood()
         {
             var obj = new ProductsController();
@@ -58,7 +59,7 @@ namespace UnitTestGo
             Assert.AreEqual("Index", actResult.RouteValues["action"]);
         }
         //-----------------------Product Data Annotation----------------
-        [Test]
+        [TestMethod]
         public void ProductDAfail()
         {
             var obj = new ProductsController();
@@ -74,7 +75,7 @@ namespace UnitTestGo
             Assert.IsTrue(ValidateModel(aux).Count > 0);
         }
 
-        [Test]
+        [TestMethod]
         public void ProductDACorrect()
         {
             var obj = new ProductsController();
@@ -90,7 +91,7 @@ namespace UnitTestGo
             Assert.IsTrue(ValidateModel(aux).Count <= 0);
         }
         //------------------------Edit----------------------------------
-        [Test]
+        [TestMethod]
         public void EditNull()
         {
             var obj = new ProductsController();
@@ -99,7 +100,7 @@ namespace UnitTestGo
             Assert.AreEqual(400, actResult.StatusCode);
         }
 
-        [Test]
+        [TestMethod]
         public void EditGood()
         {
             var obj = new ProductsController();
@@ -117,7 +118,7 @@ namespace UnitTestGo
             Assert.AreEqual("Index", actResult.RouteValues["action"]);
         }
         //------------------------Delete----------------------------------
-        [Test]
+        [TestMethod]
         public void DeleteNull()
         {
             var obj = new ProductsController();
@@ -125,7 +126,7 @@ namespace UnitTestGo
             Assert.AreEqual(400, actResult.StatusCode);
         }
 
-        [Test]
+        [TestMethod]
         public void DeleteNotFound()
         {
             var obj = new ProductsController();
@@ -134,7 +135,7 @@ namespace UnitTestGo
         }
 
         //------------------------Delete----------------------------------
-        [Test]
+        [TestMethod]
         public void DeleteConfirmedNull()
         {
             var obj = new ProductsController();

@@ -90,3 +90,6 @@ C:\Users\Harold\Documents\Ciclo20161\Experimentos\PRUEBITASGO\PRUEBITASGO\obj\De
 C:\Users\Harold\Documents\Ciclo20161\Experimentos\PRUEBITASGO\PRUEBITASGO\obj\Debug\PRUEBITASGO.csproj.GenerateResource.Cache
 C:\Users\Harold\Documents\Ciclo20161\Experimentos\PRUEBITASGO\PRUEBITASGO\obj\Debug\PRUEBITASGO.dll
 C:\Users\Harold\Documents\Ciclo20161\Experimentos\PRUEBITASGO\PRUEBITASGO\obj\Debug\PRUEBITASGO.pdb
+C:\Users\Harold\Documents\Ciclo20161\Experimentos\PRUEBITASGO\PRUEBITASGO\bin\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Harold\Documents\Ciclo20161\Experimentos\PRUEBITASGO\PRUEBITASGO\bin\es\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+C:\Users\Harold\Documents\Ciclo20161\Experimentos\PRUEBITASGO\PRUEBITASGO\obj\Debug\PRUEBITASGO.csprojResolveAssemblyReference.cache

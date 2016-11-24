@@ -65,3 +65,6 @@ C:\Users\Harold\Documents\Ciclo20161\Experimentos\PRUEBITASGO\UnitTestGo\bin\Deb
 C:\Users\Harold\Documents\Ciclo20161\Experimentos\PRUEBITASGO\UnitTestGo\obj\Debug\UnitTestGo.csprojResolveAssemblyReference.cache
 C:\Users\Harold\Documents\Ciclo20161\Experimentos\PRUEBITASGO\UnitTestGo\obj\Debug\UnitTestGo.dll
 C:\Users\Harold\Documents\Ciclo20161\Experimentos\PRUEBITASGO\UnitTestGo\obj\Debug\UnitTestGo.pdb
+C:\Users\Harold\Documents\Ciclo20161\Experimentos\PRUEBITASGO\UnitTestGo\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Harold\Documents\Ciclo20161\Experimentos\PRUEBITASGO\UnitTestGo\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Harold\Documents\Ciclo20161\Experimentos\PRUEBITASGO\UnitTestGo\bin\Debug\es\EntityFramework.SqlServer.resources.dll
